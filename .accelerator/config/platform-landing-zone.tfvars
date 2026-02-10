@@ -213,7 +213,7 @@ You can further configure management groups and policy by supplying a `lib` fold
 management_group_settings = {
   enabled = true
   # This is the name of the architecture that will be used to deploy the management resources.
-  # It refers to the alz_custom.alz_architecture_definition.yaml file in the lib folder.
+  # It refers to the slz_custom.alz_architecture_definition.yaml file in the lib folder.
   # Do not change this value unless you have created another architecture definition
   # with the name value specified below.
   architecture_name  = "slz_custom"
